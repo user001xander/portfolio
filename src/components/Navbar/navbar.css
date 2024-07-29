@@ -1,0 +1,29 @@
+.navbar {
+    font-size: 18px;
+    color:rgba(244, 239, 239, 0.815);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+    z-index:3;
+    max-width: 75rem;
+}
+.navbar a:hover{
+    color: chocolate;
+    padding-bottom: 0.5rem;
+    border-bottom: 8px solid red;
+}
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.homeMenu{
+    margin: 2rem;
+    cursor: pointer;
+}
+
